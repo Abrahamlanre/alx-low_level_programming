@@ -14,7 +14,6 @@ unsigned int count = 0;
 tmp = head;
 if (tmp == 0)
 exit(98);
-return (0);
 while (tmp != 0)
 {
 tmp2 = tmp;
