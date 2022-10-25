@@ -13,7 +13,8 @@ const listint_t *tmp, *tmp2;
 unsigned int count = 0;
 tmp = head;
 if (tmp == 0)
-return (98);
+exit(98);
+return (0);
 while (tmp != 0)
 {
 tmp2 = tmp;
