@@ -24,7 +24,7 @@
  * Can't close fd FD_VALUE, followed by a new line,
  * on the POSIX standard error
  */
-int main(int argc, char **arg)
+int main(int argc, char **argv)
 {
 int fdfrom, fdto, checkr, checkw, checkc1, checkc2;
 char buff[1024];
